@@ -1,6 +1,13 @@
 # Welcome to Obesta Demo!
 
+This project is inspiered from the Obesta software currently accessable under <obesta.at>. 
+I
 This project explains what Obesta software is and its basic concepts behind it in a purely technical aspect.
+
+
+## Goal
+
+In this project we will demostrate how to provide fundanmental software solutions for a online business in consideration for a highly scalabilable, secured and liable software.
 
 
 ## Obesta Software
