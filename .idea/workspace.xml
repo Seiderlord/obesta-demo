@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64a2cec8-8551-4ae0-b173-8b45c0c0afa8" name="Changes" comment="ini">
-      <change afterPath="$PROJECT_DIR$/simpleArchitecture.png" afterDir="false" />
+    <list default="true" id="64a2cec8-8551-4ae0-b173-8b45c0c0afa8" name="Changes" comment="update README.md">
+      <change afterPath="$PROJECT_DIR$/scalableDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707930863799</updated>
       <workItem from="1707930865043" duration="839000" />
-      <workItem from="1708378817598" duration="428000" />
+      <workItem from="1708378817598" duration="3263000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1707930891085</created>
@@ -60,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707930891085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update README.md">
+      <created>1708379439771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708379439771</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,6 +76,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ini" />
-    <option name="LAST_COMMIT_MESSAGE" value="ini" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
 </project>
