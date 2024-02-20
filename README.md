@@ -48,17 +48,35 @@ For example, my choices were:
 - DB - PostgreSql
 - Cloud Service - AWS
 
-### Architecture
+### Architecture Overview
 
-The communication needs to be defined between the server.
-Also, take in consideration to use load balancers to make the backend & frontend servers scalable.
+The proposed architecture is designed to meet the requirements of functionality, security, and scalability.
 
-For the connections to the Keycloak we can use **OpenID**. **OpenID** is easy to configure and secured.
-For communication between frontend and backend, REST API's are a good fit.
+### Functionality
+To ensure the functionality, the communication between the servers needs to be defined.
+Keycloak offers seamless integration with **OpenID Connect** (OIDC), that is the best fit for the task.
+Between frontend and backend, it is good fit to use **REST** API's.
+For the database, we use JDBC.
+
+### Security
+
+To avoid any exploitation, the traffic needs to be controlled or limited.
+Firstly, the **REST** API's can contain sensitive functions that should be restricted to authorized users only.
+To achieve that, we can use **JWT Tokens**, provided by keycloak, to authorize requests to the backend server.
+Secondly, the architecture can be placed inside a **VPC** (Virtual Private Cloud) to limit the access on the servers.
+For that, we define gateways to allow controlled requests to the servers.
+Lastly, it is advisable to use HTTPS Encryption.
+
+### Scalability
+
+The load on the servers can vary over time.
+The cloud service provides additional options to make servers scalable.
+In **AWS** you can use an **AWS Elastic Beanstalk** to achieve the scalability with multiple instances combined with a load balancer
+(view https://aws.amazon.com/elasticbeanstalk/).
 
 ![scalableDiagram.png](scalableDiagram.png)
 
 Note: LB is short for load balancer.
-In **AWS** you can use an **AWS Elastic Beanstalk** to achieve the scalability with multiple instances
-(view https://aws.amazon.com/elasticbeanstalk/).
+The green boxes represent the gateway accessible from the internet.
+
 
