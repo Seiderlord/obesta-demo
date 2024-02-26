@@ -9,7 +9,7 @@ This project is inspired by the Obesta software accessible under <https://obesta
 
 # Problem
 
-Imagine you have a good idea for a e-commerce business.
+Imagine you have a good idea for an e-commerce business.
 And your idea needs a software that offers various services for their users.
 The software should be:
 - easily-accessible on all devices
@@ -55,7 +55,7 @@ The proposed architecture is designed to meet the requirements of functionality,
 ### Functionality
 To ensure the functionality, the communication between the servers needs to be defined.
 Keycloak offers seamless integration with **OpenID Connect** (OIDC), that is the best fit for the task.
-Between frontend and backend, it is good fit to use **REST** API's.
+Between frontend and backend, it is a good fit to use **REST** API's.
 For the database, we use JDBC.
 
 ### Security
@@ -98,7 +98,7 @@ You can use the dockerized Keycloak to run it on [Amazon Elastic Container Servi
 Follow the instructions on https://www.keycloak.org/guides to secure the backend and frontend server and to
 configure the database connection. 
 
-Note that Keycloak provides **Single-Sign On** (**SSO**), which is not recommended for the us of only one application such as the solution proposed above. 
+Note that Keycloak provides **Single-Sign On** (**SSO**), which is not recommended for the use of only one application such as the solution proposed above. 
 
 ### Backend Server
 
@@ -123,7 +123,7 @@ using a user interface drawing tool such as Adobe XD or Figma to achieve a coher
 
 # Conclusion
 
-In conclusion, the proposed solution offers a comprehensive approach to address the challenges of developing an platform while meeting the requirements of functionality, security, and scalability.
+In conclusion, the proposed solution offers a comprehensive approach to address the challenges of developing a platform while meeting the requirements of functionality, security, and scalability.
 By breaking down the problem into smaller challenges and leveraging a combination of technologies, the solution provides a solid foundation for building a robust and reliable software solution.
 
 Overall, with careful planning, thoughtful consideration of technologies, and adherence to security and scalability principles,
