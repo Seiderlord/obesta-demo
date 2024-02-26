@@ -81,7 +81,7 @@ The green boxes represent the gateway accessible from the internet.
 
 ## Servers
 
-For the proposed architecture there will be four servers in total needed.
+For the proposed architecture, there will be four servers in total needed.
 
 ### Database
 
@@ -110,7 +110,7 @@ and executing various workflows to support the functionality of the platform.
 The backend server exposes a set of RESTful APIs that allow the frontend application to interact with it
 and perform CRUD (Create, Read, Update, Delete) operations on resources.
 
-For example, look at the project inside the folder named backend-server.
+For example, look at the project inside the folder named **backend-demo**.
 
 ### Frontend Server
 
